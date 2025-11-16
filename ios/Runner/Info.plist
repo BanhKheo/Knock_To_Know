@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+		<string>This app needs microphone access to hear the fruit knock...</string>
+	<key>NSCameraUsageDescription</key>
+		<string>This app needs camera access to identify the fruit type.</string>
 </dict>
 </plist>
