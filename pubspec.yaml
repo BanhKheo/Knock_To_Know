@@ -34,11 +34,13 @@ dependencies:
   #camera package
   camera: ^0.10.6 # Or the latest version
   path_provider: ^2.0.0
+  permission_handler: ^12.0.1
   path: ^1.8.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   animated_text_kit: ^4.2.2
+  flutter_svg: ^2.0.10 # Or the latest version
 
 dev_dependencies:
   flutter_test:
@@ -61,6 +63,15 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/icons/ripecheck_logo.svg
+    - assets/picture/camera_bg.png
+    - assets/icons/flash_icon.svg
+    - assets/icons/switch_camera_icon.svg
+    - assets/icons/close_icon.svg
+    - assets/icons/gallery_icon.svg
+    - assets/icons/capture_icon.svg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
