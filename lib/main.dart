@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
 
       // 2. SET 'home' TO YOUR SPLASH SCREEN
       home: const RipenessResultScreen(
-            isRipe: false, 
-            fruitName: "Vocado"
+            isRipe: true, 
+            fruitName: "Avocado"
       ), // This screen will load first
 
       debugShowCheckedModeBanner: false,

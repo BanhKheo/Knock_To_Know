@@ -146,7 +146,7 @@ class RipenessResultScreen extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: const Color.fromRGBO(255, 255, 255, 0.2), // Semi-transparent white
-        borderRadius: BorderRadius.circular(30),
+        borderRadius: BorderRadius.circular(32),
       ),
       child: Row(
         children: [
@@ -167,7 +167,7 @@ class RipenessResultScreen extends StatelessWidget {
                 const SizedBox(height: 4),
                 const Text(
                   'Analyzed just now',
-                  style: TextStyle(color: Colors.white, fontSize: 12),
+                  style: TextStyle(color: Colors.white, fontSize: 14),
                 ),
               ],
             ),
