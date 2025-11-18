@@ -1,7 +1,4 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class RipenessResultScreen extends StatelessWidget {
   final bool isRipe;
@@ -55,7 +52,7 @@ class RipenessResultScreen extends StatelessWidget {
                 title,
                 textAlign: TextAlign.center,
                 // FIX: Removed space after 'plusJakartaSans'
-                style: GoogleFonts.plusJakartaSans(
+                style: TextStyle(
                   color: Colors.white,
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
@@ -66,7 +63,7 @@ class RipenessResultScreen extends StatelessWidget {
                 subTitle,
                 textAlign: TextAlign.center,
                 // FIX: Removed space after 'plusJakartaSans'
-                style: GoogleFonts.plusJakartaSans(
+                style: TextStyle(
                   color: Colors.white, 
                   fontSize: 14,
                 ),
@@ -158,7 +155,7 @@ class RipenessResultScreen extends StatelessWidget {
                 Text(
                   name, // Use the 'name' parameter
                   // FIX: Removed space after 'plusJakartaSans'
-                  style: GoogleFonts.plusJakartaSans(
+                  style: TextStyle(
                     color: Colors.white,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
