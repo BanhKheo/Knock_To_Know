@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-// 1. IMPORT YOUR NEW SPLASH SCREEN
-import 'package:knock_to_know/features/splash_screen/splash_screen.dart'; // Make sure this matches your project name
+// 1. IMPORT YOUR SCREENS
+import 'package:knock_to_know/features/splash_screen/splash_screen.dart';
+import 'package:knock_to_know/features/knock_intro/knock_screen.dart';
+import 'package:knock_to_know/features/ripeness_result/ripeness_result_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,10 +21,12 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      // 2. SET YOUR NEW 'home' SCREEN
-      home: const SplashScreen(), // This was: const KnockScreen()
+      // 2. SET 'home' TO YOUR SPLASH SCREEN
+      home: const RipenessResultScreen(
+            isRipe: false, 
+            fruitName: "Vocado"
+      ), // This screen will load first
 
-      // 3. (Optional) This removes the "DEBUG" banner from the corner
       debugShowCheckedModeBanner: false,
     );
   }
