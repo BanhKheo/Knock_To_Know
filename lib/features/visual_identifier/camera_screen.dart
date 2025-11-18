@@ -108,7 +108,7 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
         children: [
         // Top icons
         Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.only(top: 30.0 , left: 20, right: 20),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -144,7 +144,7 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
               margin: const EdgeInsets.only(top: 20),
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.white.withOpacity(0.7), width: 3),
-                borderRadius: BorderRadius.circular(12),
+                borderRadius: BorderRadius.circular(30),
               ),
             ),
           ],
@@ -152,7 +152,7 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
 
         // Bottom buttons
         Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 50.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -188,12 +188,12 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
           color: Colors.white.withOpacity(0.2),
-          borderRadius: BorderRadius.circular(50),
+          borderRadius: BorderRadius.circular(360),
         ),
         child: SvgPicture.asset(
           assetPath,
-          width: 28,
-          height: 28,
+          width: 24,
+          height: 24,
           colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),
         ),
       ),

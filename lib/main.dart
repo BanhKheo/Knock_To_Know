@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 // 1. IMPORT YOUR NEW SPLASH SCREEN
 import 'package:knock_to_know/features/knock_intro/introScreen.dart';
 import 'package:knock_to_know/features/visual_identifier/camera_screen.dart';
-
+import 'package:knock_to_know/features/acoustic_check/acoustic_intro_screen.dart';
+import 'package:knock_to_know/features/acoustic_check/sound_check_screen.dart';
+import 'package:knock_to_know/features/results/feedback_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -19,16 +21,15 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
         fontFamily: 'PlusJakartaSans', // Apply font globally
-        textTheme: const TextTheme(
-          displayLarge: TextStyle(fontFamily: 'Plus Jakarta Sans'),
-          displayMedium: TextStyle(fontFamily: 'Plus Jakarta Sans'),
-          bodyLarge: TextStyle(fontFamily: 'Plus Jakarta Sans'),
-          bodyMedium: TextStyle(fontFamily: 'Plus Jakarta Sans'),
-        ),
+        textTheme: TextTheme(
+          bodyLarge: TextStyle(fontWeight: FontWeight.w900),
+          bodyMedium: TextStyle(fontWeight: FontWeight.w900),
+          bodySmall: TextStyle(fontWeight: FontWeight.w900),
+        )
       ),
 
       // 2. SET YOUR NEW 'home' SCREEN
-      home: const CameraScreen(), // This was: const KnockScreen()
+      home: const FeedbackScreen(),
 
       // 3. (Optional) This removes the "DEBUG" banner from the corner
       debugShowCheckedModeBanner: false,

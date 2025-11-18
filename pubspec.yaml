@@ -72,6 +72,16 @@ flutter:
     - assets/icons/close_icon.svg
     - assets/icons/gallery_icon.svg
     - assets/icons/capture_icon.svg
+    - assets/icons/watermelon_detect_icon.svg
+    - assets/icons/waveform.svg
+
+
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-VariableFont_wght.ttf
+        - asset: assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf
+          style: italic
 
   # To add assets to your application, add an assets section, like this:
   # assets:
