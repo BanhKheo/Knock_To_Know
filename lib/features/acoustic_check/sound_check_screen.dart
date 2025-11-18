@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:knock_to_know/features/results/result_screen.dart';
 
 class SoundCheckScreen extends StatefulWidget {
   final String fruitName;

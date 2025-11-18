@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:knock_to_know/features/knock_intro/introScreen.dart';
 
 // 1. IMPORT YOUR NEW SPLASH SCREEN
-import 'package:knock_to_know/features/knock_intro/introScreen.dart';
-import 'package:knock_to_know/features/visual_identifier/camera_screen.dart';
+import 'package:knock_to_know/features/ripeness_result/ripeness_result_screen.dart'; // Make sure this matches your project name
+import 'package:knock_to_know/features/ripeness_result/feedback_screen.dart'; // Make sure this matches your project name
 import 'package:knock_to_know/features/acoustic_check/acoustic_intro_screen.dart';
-import 'package:knock_to_know/features/acoustic_check/sound_check_screen.dart';
-import 'package:knock_to_know/features/results/feedback_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       ),
 
       // 2. SET YOUR NEW 'home' SCREEN
-      home: const FeedbackScreen(),
+      home: const FeedbackScreen(), // Set SplashScreen as the home screen
 
       // 3. (Optional) This removes the "DEBUG" banner from the corner
       debugShowCheckedModeBanner: false,
