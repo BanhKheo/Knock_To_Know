@@ -31,11 +31,16 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # AI packages
+  tflite_flutter: ^0.12.1 
+  image: ^4.5.4
+
   #camera package
   camera: ^0.10.6 # Or the latest version
   path_provider: ^2.0.0
   permission_handler: ^12.0.1
   path: ^1.8.0
+  image_picker: ^1.0.4
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -74,6 +79,11 @@ flutter:
     - assets/icons/capture_icon.svg
     - assets/icons/watermelon_detect_icon.svg
     - assets/icons/waveform.svg
+
+    #AI model files
+    - assets/model.tflite
+    - assets/labels.txt
+    
 
 
   fonts:
