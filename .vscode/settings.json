@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "D:/CODE/AICourse/project/Knock_To_Know/windows/flutter"
+    "cmake.sourceDirectory": "D:/CODE/AICourse/project/Knock_To_Know/windows/flutter",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
